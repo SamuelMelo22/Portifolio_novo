@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Portfólio de desenvolvedor de software júnior: Flutter, Python e automações com IA.">
+  <meta name="theme-color" content="#0a0f16">
+  <title>Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#topo">&lt;<span>Samuel Melo</span> /&gt;</a>
+    <nav class="links" aria-label="Principal">
+      <a href="#projetos">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a href="#sobre">Sobre</a>
+      <a class="btn sm" href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <span class="status"><i></i> disponível para novas oportunidades</span>
+        <h1>Apps em Flutter e automações com IA que <em>eliminam trabalho repetitivo</em>.</h1>
+        <p class="lead">Meu nome é Samuel Melo, sou desenvolvedor de software júnior. Transformo problemas do dia a dia em aplicativos mobile e fluxos automatizados.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="#contato">Falar comigo</a>
+        </div>
+        <div class="chips" aria-label="Tecnologias principais">
+          <span class="chip flutter">Flutter</span>
+          <span class="chip flutter">Dart</span>
+          <span class="chip python">Python</span>
+          <span class="chip python">FastAPI</span>
+          <span class="chip ai">LLM APIs</span>
+          <span class="chip ai">Automação</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <section id="projetos">
+    <div class="wrap">
+      <p class="eyebrow">// projetos</p>
+      <h2>Coisas que eu construí</h2>
+      <!-- <p class="sub">Uma seleção de projetos com o problema que resolvem e a stack usada. Cada um tem link para o código.</p> -->
+
+      <div class="filters" role="group" aria-label="Filtrar projetos por tecnologia">
+        <button type="button" data-filter="todos" aria-pressed="true">todos</button>
+        <button type="button" data-filter="flutter" aria-pressed="false">flutter</button>
+        <button type="button" data-filter="python" aria-pressed="false">python</button>
+        <button type="button" data-filter="ia" aria-pressed="false">ia</button>
+      </div>
+
+      <div class="grid">
+        <article class="card" data-tags="flutter">
+          <div class="tags"><span class="chip flutter">Flutter</span><span class="chip">Firebase</span><span class="chip">Riverpod</span></div>
+          <h3>Agenda Fácil</h3>
+          <p>App de agendamento para pequenos negócios, com login, calendário de horários e lembretes por notificação push.</p>
+          <p class="result">→ resultado: [ex.: reduziu faltas em 30% no piloto]</p>
+          <div class="row"><a class="btn sm" href="https://github.com/seu-usuario/agenda-facil">Código</a><a class="btn sm" href="#">Demo</a></div>
+        </article>
+
+        <article class="card" data-tags="python ia">
+          <div class="tags"><span class="chip python">Python</span><span class="chip ai">LLM API</span><span class="chip">IMAP</span></div>
+          <h3>Resumo Diário de E-mails</h3>
+          <p>Script que lê a caixa de entrada, agrupa mensagens por assunto e envia cada manhã um resumo com as pendências do dia.</p>
+          <p class="result">→ resultado: [ex.: 40 min economizados por dia]</p>
+          <div class="row"><a class="btn sm" href="https://github.com/seu-usuario/resumo-emails">Código</a><a class="btn sm" href="#">Demo</a></div>
+        </article>
+
+        <article class="card" data-tags="flutter python">
+          <div class="tags"><span class="chip flutter">Flutter</span><span class="chip python">FastAPI</span><span class="chip">PostgreSQL</span></div>
+          <h3>Painel de Finanças</h3>
+          <p>Aplicativo mobile que consome uma API própria em FastAPI para registrar gastos, categorizar despesas e mostrar gráficos mensais.</p>
+          <!-- <p class="result">→ resultado: [ex.: 5 telas, API com 12 rotas]</p>
+          <div class="row"><a class="btn sm" href="https://github.com/seu-usuario/painel-financas">Código</a><a class="btn sm" href="#">Demo</a></div> -->
+        </article>
+
+        <article class="card" data-tags="python ia">
+          <div class="tags"><span class="chip python">Python</span><span class="chip ai">IA</span><span class="chip">Telegram</span></div>
+          <h3>Bot de Atendimento</h3>
+          <p>Chatbot que responde dúvidas frequentes usando um modelo de linguagem e uma base de documentos, e encaminha casos complexos para uma pessoa.</p>
+          <p class="result">→ resultado: [ex.: respondeu 70% das dúvidas sem apoio humano]</p>
+          <div class="row"><a class="btn sm" href="https://github.com/seu-usuario/bot-atendimento">Código</a><a class="btn sm" href="#">Demo</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="wrap">
+      <p class="eyebrow">// stack</p>
+      <h2>Ferramentas do dia a dia</h2>
+      <!-- <p class="sub">O que eu uso para sair da ideia e chegar em um produto funcionando.</p> -->
+
+      <div class="stack">
+        <div class="group">
+          <h3><i style="background: var(--flutter)"></i>Mobile</h3>
+          <p>Apps nativos para Android com uma base de código só.</p>
+          <div class="chips"><span class="chip flutter">Flutter</span><span class="chip flutter">Dart</span><span class="chip">SQflite</span><span class="chip">Firebase</span></div>
+        </div>
+        <div class="group">
+          <h3><i style="background: var(--python)"></i>Backend e dados</h3>
+          <p>APIs e scripts que sustentam os apps e processam dados.</p>
+          <div class="chips"><span class="chip python">Python</span><span class="chip python">FastAPI</span><span class="chip">SQL</span><span class="chip">Pandas</span></div>
+        </div>
+        <div class="group">
+          <h3><i style="background: var(--ai)"></i>IA e automação</h3>
+          <p>Fluxos que usam modelos de linguagem para automatizar tarefas.</p>
+          <div class="chips"><span class="chip ai">APIs de LLM</span><span class="chip ai">Prompts</span><span class="chip ai">RAG</span><span class="chip ai">n8n</span></div>
+        </div>
+      </div>
+      <div class="chips" style="margin-top: 20px" aria-label="Outras ferramentas">
+        <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Docker</span><span class="chip">Figma</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia">
+    <div class="wrap">
+      <p class="eyebrow">// experiência</p>
+      <h2>Onde eu já trabalhei</h2>
+
+      <div class="timeline">
+        <div class="job">
+          <div class="when">2025 — atual</div>
+          <div>
+            <h3>Estagiário de Desenvolvimento de Software</h3>
+            <p class="org">Centro Educacional Betel</p>
+            <ul>
+              <li>Desenvolvimento de aplicativos móveis utilizando Flutter.</li>
+              <li>Desenvolvimento de sites.</li>
+              <li>Design de sites utilizando Figma.</li>
+              <li>Criação de API'S em back-end.</li>
+              <li>Desenvolvimento de Agentes de IA com Python e APIs de IA.</li>
+              <li>Automação de rotinas internas com n8n.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job past">
+          <div class="when">2024 — 2025</div>
+          <div>
+            <h3>Estagiário de Suporte</h3>
+            <p class="org">Centro Educacional Betel</p>
+            <ul>
+              <li>Montagem de computadores.</li>
+              <li>Manutenção de computadores.</li>
+              <li>Apoio à manutenção e à infraestrutura de redes.</li>
+              <li>Instalação, configuração e suporte aos sistemas operacionais Microsoft Windows.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formacao">
+    <div class="wrap">
+      <p class="eyebrow">// formação</p>
+      <h2>Formação e cursos</h2>
+      <p class="sub">Onde eu estudei e o que continuo aprendendo fora da faculdade.</p>
+
+      <div class="degrees">
+        <article class="degree">
+          <p class="label">formação acadêmica</p>
+          <h3>Engenharia de Software</h3>
+          <div class="side"><span class="yr">2023 — 2026</span><span class="chip">Bacharelado</span></div>
+          <p class="inst">Unicesumar</p>
+        </article>
+
+        <article class="degree">
+          <p class="label">formação acadêmica</p>
+          <h3>Técnico de Informática</h3>
+          <div class="side"><span class="yr">2020 — 2022</span><span class="chip">Técnico</span></div>
+          <p class="inst">Centro Educacional Betel</p>
+        </article>
+
+      </div>
+
+      <div class="courses-head">
+        <h3>Cursos e certificados</h3>
+        <!-- <span id="resumo-cursos"> cursos</span> -->
+      </div>
+      <div class="courses">
+
+        <article class="course">
+          <span class="chip ai">IA</span><span class="yr">2026</span>
+          <h4>Python: Inteligência artificial aplicada</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip ai">Automação</span><span class="yr">2026</span>
+          <h4>Automação de processos com n8n e IA</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip ai">IA</span><span class="yr">2026</span>
+          <h4>LangChain e Python</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip ai">IA</span><span class="yr">2026</span>
+          <h4>LangGraph</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip flutter">Flutter</span><span class="yr">2025</span>
+          <h4>Persistência com Flutter: crie um app com armazenamento interno</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip flutter">Flutter</span><span class="yr">2025</span>
+          <h4>Dart: Entendendo a Orientação a Objetos</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip">Outros</span><span class="yr">2025</span>
+          <h4>PHP</h4>
+          <p class="meta">Alura</p>
+        </article>
+
+        <article class="course">
+          <span class="chip">Outros</span><span class="yr">2022</span>
+          <h4>Cybersecurity Essentials</h4>
+          <p class="meta">Cisco</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="wrap">
+      <p class="eyebrow">// sobre</p>
+      <h2>Quem está por trás do código</h2>
+      <div class="about">
+        <div>
+          <p>Gosto de começar pelo problema e só depois escolher a ferramenta. Em Flutter, cuido de interfaces rápidas e fáceis de manter. Em Python, uso scripts e APIs para ligar sistemas e automatizar o que ninguém quer fazer à mão.</p>
+          <p>Estou na fase de crescer rápido: aprendo com revisão de código, entrego em pequenos passos e documento o que faço. [Escreva aqui um detalhe pessoal, como um hobby ou o que você está estudando agora.]</p>
+        </div>
+        <dl class="facts">
+          <div><dt>foco</dt><dd>Flutter · Python · IA</dd></div>
+          <div><dt>nível</dt><dd>Júnior</dd></div>
+          <div><dt>estudando</dt><dd>[ex.: arquitetura limpa]</dd></div>
+          <div><dt>idiomas</dt><dd>Português · Inglês [nível]</dd></div>
+          <div><dt>modelo</dt><dd>Remoto ou híbrido</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <div class="wrap">
+      <p class="eyebrow">// contato</p>
+      <h2>Vamos construir algo juntos?</h2>
+      <p class="sub">Estou aberto a vagas, freelas e conversas sobre projetos. Respondo em até dois dias úteis.</p>
+      <div class="mail">
+        <code id="email">voce@email.com</code>
+        <button class="btn" type="button" id="copiar">Copiar e-mail</button>
+      </div>
+      <div class="social">
+        <a class="btn" href="https://github.com/seu-usuario">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/seu-usuario">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="ano">2026</span> [Seu Nome]</span>
+    <span>feito com HTML, CSS e JavaScript</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
